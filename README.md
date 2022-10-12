@@ -2,7 +2,7 @@
 
 ### Game Rules
 - Initially snake will be of size 3 at center
-- Snake will up, down, left, right direction
+- Snake will move in up, down, left, right directions
 - After every 5 moves snake size will grow by one unit
 - Game will be over when the snake will collide with board boundary or itself
 - After game over show user score (snake size)
