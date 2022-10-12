@@ -1,0 +1,8 @@
+#files
+*.log
+*.iml
+*.class
+
+#dirs
+out
+.idea
