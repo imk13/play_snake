@@ -15,10 +15,10 @@ class Board {
 
     public fun startGame() {
         while (true) {
+            // take direction input from user
             val direction = Direction.RIGHT;
             snake.move(direction)
             if (snake.hasCollided(boundary)) {
-                // get direction
                 println("Game Over!")
                 println("Your score ${snake.snakeBody.size}")
                 return
